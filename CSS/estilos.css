@@ -1,0 +1,400 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Ms Madi', cursive;
+    background-color: #212529;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    height: 100vh;
+    position: relative;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    margin-left: 1.7vw;
+}
+
+.nav-link {
+    margin-left: 1vw;
+}
+
+.nav-link:hover {
+    background-color: #8011117c ;
+    color: #c92c2c;
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.3em;
+    
+}
+
+/*Header*/
+
+.container-header{
+    background-color:#c92c2c
+    text
+    
+
+}
+.navbar{
+    background-color:#c92c2c
+
+}
+
+/*footer*/
+
+    
+li{
+    list-style-type: none;
+    margin-left: 1vw;
+}
+    
+li:first-child{
+    margin:0;
+}
+    
+footer{
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+    
+.content{
+    height: 7vh;
+    width: 100%;
+    margin: 0;
+}
+    
+.container-fluid{
+    background-color: #c92c2c;
+    margin: 0;
+    padding: 0;
+
+}
+    
+.copyright,  .impressum{
+    text-align: center;
+}
+    
+.logo{
+    height: 8vh;
+}
+    
+@media (max-width: 768px)
+{
+li{
+    margin-left: 0;
+    margin-bottom: 1vh;
+}
+      
+.sozial{
+    margin-bottom: 1vh;
+}
+    }
+
+    /*discografia*/
+
+.container{
+    width: 300px;
+    display: flex;
+    max-width: 300%;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 300px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #c92c2c;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    
+}
+.contenido{
+    text-align: center;
+    justify-content: center;
+    background: #c92c2c;
+    color: #131618;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner{
+    width: 50%;
+    height: 50%;
+    padding-top: 5rem;
+    padding-bottom: 0.1rem;
+}
+
+    /*formulario de contacto*/
+
+
+.contenedor3 .form .form-header .formtitle{
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #c92c2c;
+    text-align: center;
+    padding: 14px 0;
+
+}
+.contenedor3 .form .form-header .formtitle span{
+    color: antiquewhite;
+}
+.contenedor3 .form{
+    background: rgba(0,0,0,0.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+.contenedor3 .form .form-label{
+    display: block;
+    color: #c92c2c;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+.contenedor3 .form .form-input, .form-textarea{
+    background: rgba(0,0,0,0.2);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #c92c2c;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #c92c2c;
+    font-family: 'Roboto Slab', serif;
+}
+.contenedor3 .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.contenedor3 .form .btn-submit{
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    outline: none;
+    background: #c92c2c;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.contenedor3 .form .btn-submit:hover{
+    background: #c92c2c;
+}
+    /*galeria*/
+h1{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+.galeria a:hover img{
+    transform: rotate(10deg) scale(1.3);
+}
+.imagenes{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+/* Biografia */
+
+/* CARD */
+
+
+.contenedor2 {
+    width: 500px;
+    display: flex;
+    margin: 20px;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.tarjeta {
+    background-color: #c92c2c;
+    color:  #131618;
+    overflow: hidden;
+    border-radius: 0.5em;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    margin: 20px;
+}
+.tarjeta-central {
+    background-color: #c92c2c;
+    color:  #131618;
+    overflow: hidden;
+    border-radius: 0.5em;
+    text-align: center;
+    width: 800px;
+    margin: 20px;
+}
+.tarjeta-img {
+    width: 100%;
+}
+
+.tarjeta-body {
+    padding: 1em;
+
+}
+
+.tarjeta-body h4 {
+    padding: 5px;
+    font-size: 2rem;
+    margin: .5em 0;
+    font-weight: 500;
+}
+
+.tarjeta-body p {
+    font-weight: 400;
+}
+
+/*landing page*/
+/* NOSOTROS */
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.nosotros-body {
+    background-color: #c92c2c;
+    padding: 1em;
+    text-align: center;
+    color: #131618;
+    border-radius: 0.5em;
+    
+
+}
+
+.nosotros-body h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nosotros-body p {
+    font-weight: 200;
+}
+
+
+/*Cartas*/
+
+.contenedor1 {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.cartas {
+    background-color: #c92c2c;
+    color:  #131618;
+    overflow: hidden;
+    border-radius: 0.5em;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    margin: 20px;
+    padding-bottom: 2rem;
+}
+.cartas-central {
+    background-color: #c92c2c;
+    color:  #131618;
+    overflow: hidden;
+    border-radius: 0.5em;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.cartas-img {
+    width: 100%;
+}
+
+.cartas-body {
+    padding: 1em;
+
+}
+
+.cartas-body h4 {
+    padding: 5px;
+    font-size: 2rem;
+    margin: .5em 0;
+    font-weight: 500;
+}
+
+.cartas-body p {
+    font-weight: 400;
+}
+
+/*botón carta*/
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 3em;
+    margin: 0 0.2em;
+    border-radius: 0.5em;
+    
+}
+.btn-dark {
+    color: white;
+    background-color: #2F2E2E;
+}
+
+
