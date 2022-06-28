@@ -233,7 +233,9 @@ footer{
         display: grid;
     }
 }
-
+.contenedor{
+    justify-content: center;
+}
 .contenedor2 {
     width: 500px;
     display: flex;
