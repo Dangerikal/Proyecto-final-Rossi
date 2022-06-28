@@ -41,10 +41,10 @@ body{
 /*Header*/
 
 .container-header{
-    background-color:#c92c2c
+    background-color:#c92c2c;
 }
 .navbar{
-    background-color:#c92c2c
+    background-color:#c92c2c;
 
 }
 
@@ -139,10 +139,6 @@ footer{
     color: #c92c2c;
     text-align: center;
     padding: 14px 0;
-
-}
-.contenedor3 .form .form-header .formtitle span{
-    color: antiquewhite;
 }
 .contenedor3 .form{
     background: rgba(0,0,0,0.6);
@@ -196,14 +192,6 @@ footer{
     background: #c92c2c;
 }
     /*galeria*/
-h1{
-    font-weight: 400;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 40px;
-}
-
-
 .galeria{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -282,7 +270,7 @@ h1{
 
 }
 
-.tarjeta-body h4 {
+.tarjeta-body h5 {
     padding: 5px;
     font-size: 2rem;
     margin: .5em 0;
@@ -306,10 +294,9 @@ h1{
         width: 80%;
     }
     .cartas-central{
-        gap: 15em
+        gap: 5em
     }
 }
-
 .nosotros-body {
     background-color: #c92c2c;
     padding: 1em;
@@ -317,16 +304,13 @@ h1{
     color: #131618;
     border-radius: 0.5em;
 }
-
 .nosotros-body h2 {
     text-transform: uppercase;
     font-weight: 500;
 }
-
 .nosotros-body p {
     font-weight: 200;
 }
-
 
 /*Cartas*/
 
@@ -336,19 +320,6 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
-
-}
-.cartas {
-    background-color: #c92c2c;
-    color:  #131618;
-    overflow: hidden;
-    border-radius: 0.5em;
-    text-align: center;
-    justify-content: center;
-    width: 500px;
-    margin: 20px;
-    padding-bottom: 2rem;
 }
 .cartas-central {
     background-color: #c92c2c;
